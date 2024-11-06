@@ -2,10 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     list-style: none;
     text-decoration: none;
 }
+html::-webkit-scrollbar{
+    width: 5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-button{
+    background: #fff;
+    border-radius: 5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
 body{
     background: rgb(36, 36, 36);
+}
+.logo img{
+    width: 175px;
+    height: auto;
+    margin-left: 5rem;
 }
